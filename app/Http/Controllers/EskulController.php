@@ -40,7 +40,6 @@ class EskulController extends Controller
         $eskul = new Eskul();
         $eskul->eskul = $request->eskul;
         $eskul->deskripsi = $request->deskripsi;
-        $eskul->foto = $request->foto;
 
         if($request->hasFile('foto')){
             $img = $request->file('foto');

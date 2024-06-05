@@ -1,11 +1,11 @@
-@extends('layout.layout')
+@extends('layoud.layout')
 
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
                 <div class="card">
-                    <div class="card-header">Edit Fasilitas
+                    <div class="card-header">Edit Jurusan
                         <a href="{{ route('jurusan.index') }}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
                     </div>
                     <div class="card-body">

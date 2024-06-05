@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layoud.layout')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
@@ -26,6 +26,26 @@
                                         </span>
                                         @enderror
                                     </select>
+                                </div>
+                                <div class="mb-2">
+                                    <label for="">Deskripsi</label>
+                                    <input type="text" class="form-control @error('deskripsi') is-invalid @enderror"
+                                        name="deskripsi">
+                                    @error('deskripsi')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
+                                </div>
+                                <div class="mb-2">
+                                    <label for="">Foto</label>
+                                    <input type="file" class="form-control @error('foto') is-invalid @enderror"
+                                        name="foto">
+                                    @error('foto')
+                                    <span class="invalid-feedback" role="alert">
+                                        <strong>{{ $message }}</strong>
+                                    </span>
+                                    @enderror
                                 </div>
                             </div>
                         </div>

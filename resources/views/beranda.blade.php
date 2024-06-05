@@ -28,7 +28,7 @@
     .card-img {
         background-repeat: no-repeat;
         background-position: 100% 100%;
-        width: 1520px;
+        width: relative;
         height: 600px;
         filter: brightness(50%);
     }
@@ -49,7 +49,7 @@
 <h1 class="visually-hidden">Heroes examples</h1>
 <div class="card mb-3 text-white">
     <img src="img/gedungsek1.jpg" class="card-img" alt="...">
-    <div class="card-img-overlay mt-5 px-4 py-5 text-center">
+    <div class="card-img-overlay px-4 py-5 text-center">
         <h1 class="card-title centered fw-bold ">SMK Assalaam Bandung</h1>
         <div class="col-lg-6 centered-text mx-auto">
             <p class="lead mb-4">Menghasilkan lulusan yang terserap di dunia kerja dan bertujuan mengurangi angka pengangguran saat lulus smk disini</p>

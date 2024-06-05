@@ -23,8 +23,9 @@
                 <li><a href="beranda" class="nav-link px-2 text-white">BERANDA</a></li>
                 <li><a href="fasilitas" class="nav-link px-2 text-white">FASILITAS</a></li>
                 <li><a href="jurusan" class="nav-link px-2 text-white">JURUSAN</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">INDSUTRI</a></li>
-                <li><a href="#" class="nav-link px-2 text-white">ARTIKEL</a></li>
+                <li><a href="industri" class="nav-link px-2 text-white">INDSUTRI</a></li>
+                <li><a href="eskul" class="nav-link px-2 text-white">EKSKUL</a></li>
+                <li><a href="artikel" class="nav-link px-2 text-white">ARTIKEL</a></li>
             </ul>
 
             <div class="text-end">

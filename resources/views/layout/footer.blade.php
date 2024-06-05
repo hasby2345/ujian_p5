@@ -30,8 +30,8 @@
                 <div class="mb-2"  style="float: right">
                     <h2>Contact Us</h2>
                     <li style="list-style: none"><i class="bi bi-telephone"></i>    08967536892</li>
-                    <li style="list-style: none"><i class="bi bi-envelope"></i></li>
-                    <li style="list-style: none"><i class="bi bi-instagram"></i></li>
+                    <li style="list-style: none"><i class="bi bi-envelope">     smkn2bdg@gmail.com</i></li>
+                    <li style="list-style: none"><i class="bi bi-instagram">      @smkn2bdg</i></li>
 
                 </div>
             </div>

@@ -1,55 +1,47 @@
-<h1 class="visually-hidden">Sidebars examples</h1>
+{{-- <style>
+    header {
+        background-color: rgb(139, 153, 193);
+    }
 
-  <div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark" style="width: 280px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#home"/></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#speedometer2"/></svg>
-          Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#table"/></svg>
-          Orders
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#grid"/></svg>
-          Products
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi me-2" width="16" height="16"><use xlink:href="#people-circle"/></svg>
-          Customers
-        </a>
-      </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-        <strong>mdo</strong>
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
-        <li><a class="dropdown-item" href="#">New project...</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
+        a {
+        font-family: "Rubik", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+    }
+</style>
+<header class="p-3 shadow sticky-top">
+    <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap">
+                    <use xlink:href="#bootstrap" />
+                </svg>
+            </a>
+
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="{{route('fasilitas.index')}}" class="nav-link px-2 text-white">FASILITAS</a></li>
+                <li><a href="{{route('jurusan.index')}}" class="nav-link px-2 text-white">JURUSAN</a></li>
+                <li><a href="{{route('industri.index')}}" class="nav-link px-2 text-white">INDSUTRI</a></li>
+                <li><a href="{{route('eskul.index')}}" class="nav-link px-2 text-white">EKSKUL</a></li>
+                <li><a href="{{route('artikel.index')}}" class="nav-link px-2 text-white">ARTIKEL</a></li>
+            </ul>
+
+            <div class="text-end">
+                @guest
+                <li style="list-style: none"><a class="btn btn-outline-light" href="{{url('login')}}" class="text-white">Login</a>
+                    <a class="btn btn-outline-light" href="{{url('register')}}" class="text-white">Register</a>
+                </li>
+                @else
+                <li style="list-style: none"><a class="btn btn-outline-light" href="{{url('logout')}}" class="text-white"
+                        onclick="event.preventDefault(); document.getElementById('logout-form').submit();">Logout</a>
+                </li>
+                {{-- form untuk logout 
+                <form action="{{route('logout')}}" method="POST" id="logout-form">
+                    @csrf
+                </form>
+                @endguest
+            </div>
+        </div>
     </div>
-  </div>
+</header> --}}

@@ -11,6 +11,9 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/album/">
 
+    <link href="css/style.css" rel="stylesheet" />
+
+
 
 
     <!-- Bootstrap core CSS -->
@@ -61,7 +64,7 @@
 
 <body>
     {{-- start header --}}
-    {{-- @include('layoud.side') --}}
+    @include('layoud.sidebar')
     {{-- end header --}}
 
     <main class="py-4">

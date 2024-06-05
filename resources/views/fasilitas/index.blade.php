@@ -1,5 +1,6 @@
-@extends('layout.layout')
+@extends('layoud.layout')
 @section('content')
+@include('layoud.sidebar')
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-10">
@@ -9,7 +10,7 @@
                 </div>
                 @endif
                 <div class="card ">
-                    <div class="card-header"> Data Buku
+                    <div class="card-header"> Data Fasilitas
                         <a href="{{route('fasilitas.create')}}" class="btn btn-sm btn-primary" style="float: right">Tambah</a>
                     </div>
                     <div class="card-body">

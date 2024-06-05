@@ -1,10 +1,10 @@
-@extends('layout.layout')
+@extends('layoud.layout')
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
         <div class="card-md-8">
             <div class="card">
-                <div class="card-header">Data Buku
+                <div class="card-header">Data Fasilitas
                     <a href="{{route('fasilitas.index')}}" class="btn btn-sm btn-primary" style="float: right">Kembali</a>
                 </div>
                 <div class="card-body">

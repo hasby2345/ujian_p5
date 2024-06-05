@@ -46,7 +46,7 @@ class IndustriController extends Controller
 
         $industri->save();
         //lampiran banyak genre di industri
-        $industri->jurusan()->atach($request->jurusan);
+        $industri->jurusan()->sync($request->jurusan);
         return redirect()->route('industri.index')
             ->with('success', 'data berhasil ditambahkan');
 

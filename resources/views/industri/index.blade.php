@@ -1,4 +1,4 @@
-@extends('layout.layout')
+@extends('layoud.layout')
 @section('content')
     <div class="container">
         <div class="row justify-content-center">
@@ -9,7 +9,7 @@
                 </div>
                 @endif
                 <div class="card ">
-                    <div class="card-header"> Data Buku
+                    <div class="card-header"> Data Industri
                         <a href="{{route('industri.create')}}" class="btn btn-sm btn-primary" style="float: right">Tambah</a>
                     </div>
                     <div class="card-body">
